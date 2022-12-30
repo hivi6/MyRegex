@@ -10,4 +10,5 @@ Regular expression matching using nfa(graph based)
 ?       := Zero or one character
 X|Y     := X or Y
 XY      := X and then Y
+[c]     := range characters
 ```
