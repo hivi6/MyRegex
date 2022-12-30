@@ -1,0 +1,5 @@
+regex               ::= list
+list                ::= element ["|" list]
+element             ::= ("(" list ")" | value) ("*"|"+"|"?") [element]
+value               ::= [0-9A-Za-z!~`!@#%&_-=:;\"\'\\\r\t\n] | 
+                        "[" (c ["-" c])+ "]"
