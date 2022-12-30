@@ -253,7 +253,8 @@ private:
         }
 
         if (isEnd(pattern, index) ||
-            charAt(pattern, index) == '|')
+            charAt(pattern, index) == '|' ||
+            charAt(pattern, index) == ')')
             return left;
 
         // extend element rule
